@@ -22,7 +22,7 @@
 然后将以下内容添加到pom.xml
 ```
 <dependency>
-    <groupId>com.butsun.ocpp</groupId>
+    <groupId>com.github.butsun</groupId>
     <artifactId>ocpp-model</artifactId>
     <version>${ocpp-model.version}</version>
 </dependency>

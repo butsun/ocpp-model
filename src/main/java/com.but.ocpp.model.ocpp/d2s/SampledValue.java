@@ -28,7 +28,7 @@ public class SampledValue {
         this.value = value;
     }
 
-    public boolean isSetValue() {
+    public boolean hasSetValue() {
         return (this.value!= null);
     }
 
@@ -42,7 +42,7 @@ public class SampledValue {
         this.context = value;
     }
 
-    public boolean isSetContext() {
+    public boolean hasSetContext() {
         return (this.context!= null);
     }
 
@@ -56,7 +56,7 @@ public class SampledValue {
         this.format = value;
     }
 
-    public boolean isSetFormat() {
+    public boolean hasSetFormat() {
         return (this.format!= null);
     }
 
@@ -70,7 +70,7 @@ public class SampledValue {
         this.measurand = value;
     }
 
-    public boolean isSetMeasurand() {
+    public boolean hasSetMeasurand() {
         return (this.measurand!= null);
     }
 
@@ -84,7 +84,7 @@ public class SampledValue {
         this.phase = value;
     }
 
-    public boolean isSetPhase() {
+    public boolean hasSetPhase() {
         return (this.phase!= null);
     }
 
@@ -98,7 +98,7 @@ public class SampledValue {
         this.location = value;
     }
 
-    public boolean isSetLocation() {
+    public boolean hasSetLocation() {
         return (this.location!= null);
     }
 
@@ -112,7 +112,7 @@ public class SampledValue {
         this.unit = value;
     }
 
-    public boolean isSetUnit() {
+    public boolean hasSetUnit() {
         return (this.unit!= null);
     }
 

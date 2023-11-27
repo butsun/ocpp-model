@@ -32,7 +32,7 @@ public class StatusNotificationRequest implements RequestType {
         this.connectorId = value;
     }
 
-    public boolean isSetConnectorId() {
+    public boolean hasSetConnectorId() {
         return true;
     }
 
@@ -45,7 +45,7 @@ public class StatusNotificationRequest implements RequestType {
         this.status = value;
     }
 
-    public boolean isSetStatus() {
+    public boolean hasSetStatus() {
         return (this.status!= null);
     }
 
@@ -58,7 +58,7 @@ public class StatusNotificationRequest implements RequestType {
         this.errorCode = value;
     }
 
-    public boolean isSetErrorCode() {
+    public boolean hasSetErrorCode() {
         return (this.errorCode!= null);
     }
 
@@ -70,7 +70,7 @@ public class StatusNotificationRequest implements RequestType {
         this.info = value;
     }
 
-    public boolean isSetInfo() {
+    public boolean hasSetInfo() {
         return (this.info!= null);
     }
 
@@ -82,7 +82,7 @@ public class StatusNotificationRequest implements RequestType {
         this.timestamp = value;
     }
 
-    public boolean isSetTimestamp() {
+    public boolean hasSetTimestamp() {
         return (this.timestamp!= null);
     }
 
@@ -94,7 +94,7 @@ public class StatusNotificationRequest implements RequestType {
         this.vendorId = value;
     }
 
-    public boolean isSetVendorId() {
+    public boolean hasSetVendorId() {
         return (this.vendorId!= null);
     }
 
@@ -106,7 +106,7 @@ public class StatusNotificationRequest implements RequestType {
         this.vendorErrorCode = value;
     }
 
-    public boolean isSetVendorErrorCode() {
+    public boolean hasSetVendorErrorCode() {
         return (this.vendorErrorCode!= null);
     }
 

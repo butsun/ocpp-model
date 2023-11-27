@@ -29,7 +29,7 @@ public class MeterValue {
         this.timestamp = value;
     }
 
-    public boolean isSetTimestamp() {
+    public boolean hasSetTimestamp() {
         return (this.timestamp!= null);
     }
 
@@ -41,7 +41,7 @@ public class MeterValue {
         return this.sampledValue;
     }
 
-    public boolean isSetSampledValue() {
+    public boolean hasSetSampledValue() {
         return ((this.sampledValue!= null)&&(!this.sampledValue.isEmpty()));
     }
 

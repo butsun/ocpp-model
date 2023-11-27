@@ -23,7 +23,7 @@ public class RemoteStopTransactionRequest implements RequestType {
         this.transactionId = value;
     }
 
-    public boolean isSetTransactionId() {
+    public boolean hasSetTransactionId() {
         return true;
     }
 

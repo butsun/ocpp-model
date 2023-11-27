@@ -39,7 +39,7 @@ public class IdTagInfo {
         this.status = value;
     }
 
-    public boolean isSetStatus() {
+    public boolean hasSetStatus() {
         return (this.status!= null);
     }
 
@@ -67,7 +67,7 @@ public class IdTagInfo {
         this.expiryDate = value;
     }
 
-    public boolean isSetExpiryDate() {
+    public boolean hasSetExpiryDate() {
         return (this.expiryDate!= null);
     }
 
@@ -95,7 +95,7 @@ public class IdTagInfo {
         this.parentIdTag = value;
     }
 
-    public boolean isSetParentIdTag() {
+    public boolean hasSetParentIdTag() {
         return (this.parentIdTag!= null);
     }
 

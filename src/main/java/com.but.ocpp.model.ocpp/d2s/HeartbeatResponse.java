@@ -23,7 +23,7 @@ public class HeartbeatResponse implements ResponseType {
         this.currentTime = value;
     }
 
-    public boolean isSetCurrentTime() {
+    public boolean hasSetCurrentTime() {
         return (this.currentTime!= null);
     }
 

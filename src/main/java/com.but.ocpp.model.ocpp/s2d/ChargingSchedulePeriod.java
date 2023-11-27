@@ -25,7 +25,7 @@ public class ChargingSchedulePeriod {
         this.startPeriod = value;
     }
 
-    public boolean isSetStartPeriod() {
+    public boolean hasSetStartPeriod() {
         return true;
     }
 
@@ -39,7 +39,7 @@ public class ChargingSchedulePeriod {
         this.limit = value;
     }
 
-    public boolean isSetLimit() {
+    public boolean hasSetLimit() {
         return (this.limit!= null);
     }
 
@@ -53,7 +53,7 @@ public class ChargingSchedulePeriod {
         this.numberPhases = value;
     }
 
-    public boolean isSetNumberPhases() {
+    public boolean hasSetNumberPhases() {
         return (this.numberPhases!= null);
     }
 

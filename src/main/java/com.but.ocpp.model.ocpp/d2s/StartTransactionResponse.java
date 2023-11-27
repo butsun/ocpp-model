@@ -25,7 +25,7 @@ public class StartTransactionResponse implements ResponseType {
         this.transactionId = value;
     }
 
-    public boolean isSetTransactionId() {
+    public boolean hasSetTransactionId() {
         return true;
     }
 
@@ -39,7 +39,7 @@ public class StartTransactionResponse implements ResponseType {
         this.idTagInfo = value;
     }
 
-    public boolean isSetIdTagInfo() {
+    public boolean hasSetIdTagInfo() {
         return (this.idTagInfo!= null);
     }
 

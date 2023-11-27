@@ -29,7 +29,7 @@ public class MeterValuesRequest implements RequestType {
         this.connectorId = value;
     }
 
-    public boolean isSetConnectorId() {
+    public boolean hasSetConnectorId() {
         return true;
     }
 
@@ -43,7 +43,7 @@ public class MeterValuesRequest implements RequestType {
         this.transactionId = value;
     }
 
-    public boolean isSetTransactionId() {
+    public boolean hasSetTransactionId() {
         return (this.transactionId!= null);
     }
 
@@ -55,7 +55,7 @@ public class MeterValuesRequest implements RequestType {
         return this.meterValue;
     }
 
-    public boolean isSetMeterValue() {
+    public boolean hasSetMeterValue() {
         return ((this.meterValue!= null)&&(!this.meterValue.isEmpty()));
     }
 

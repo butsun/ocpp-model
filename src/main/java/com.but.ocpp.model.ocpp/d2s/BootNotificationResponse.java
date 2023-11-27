@@ -26,7 +26,7 @@ public class BootNotificationResponse implements ResponseType {
         this.status = value;
     }
 
-    public boolean isSetStatus() {
+    public boolean hasSetStatus() {
         return (this.status!= null);
     }
 
@@ -40,7 +40,7 @@ public class BootNotificationResponse implements ResponseType {
         this.currentTime = value;
     }
 
-    public boolean isSetCurrentTime() {
+    public boolean hasSetCurrentTime() {
         return (this.currentTime!= null);
     }
 
@@ -60,7 +60,7 @@ public class BootNotificationResponse implements ResponseType {
         this.interval = value;
     }
 
-    public boolean isSetInterval() {
+    public boolean hasSetInterval() {
         return true;
     }
 

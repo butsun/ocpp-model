@@ -12,7 +12,7 @@ public class SetChargingProfileResponse
      * Gets the value of the status property.
      * 
      * @return
-     *     possible object is
+     *     possible object has
      *     {@link ChargingProfileStatus }
      *     
      */
@@ -24,7 +24,7 @@ public class SetChargingProfileResponse
      * Sets the value of the status property.
      * 
      * @param value
-     *     allowed object is
+     *     allowed object has
      *     {@link ChargingProfileStatus }
      *     
      */
@@ -32,7 +32,7 @@ public class SetChargingProfileResponse
         this.status = value;
     }
 
-    public boolean isSetStatus() {
+    public boolean hasSetStatus() {
         return (this.status!= null);
     }
 

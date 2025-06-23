@@ -12,7 +12,7 @@ public class DataTransferRequest
     /**
      * Gets the value of the vendorId property.
      *
-     * @return possible object is
+     * @return possible object has
      * {@link String }
      */
     public String getVendorId() {
@@ -22,21 +22,21 @@ public class DataTransferRequest
     /**
      * Sets the value of the vendorId property.
      *
-     * @param value allowed object is
+     * @param value allowed object has
      *              {@link String }
      */
     public void setVendorId(String value) {
         this.vendorId = value;
     }
 
-    public boolean isSetVendorId() {
+    public boolean hasSetVendorId() {
         return (this.vendorId != null);
     }
 
     /**
      * Gets the value of the messageId property.
      *
-     * @return possible object is
+     * @return possible object has
      * {@link String }
      */
     public String getMessageId() {
@@ -46,21 +46,21 @@ public class DataTransferRequest
     /**
      * Sets the value of the messageId property.
      *
-     * @param value allowed object is
+     * @param value allowed object has
      *              {@link String }
      */
     public void setMessageId(String value) {
         this.messageId = value;
     }
 
-    public boolean isSetMessageId() {
+    public boolean hasSetMessageId() {
         return (this.messageId != null);
     }
 
     /**
      * Gets the value of the data property.
      *
-     * @return possible object is
+     * @return possible object has
      * {@link String }
      */
     public String getData() {
@@ -70,14 +70,14 @@ public class DataTransferRequest
     /**
      * Sets the value of the data property.
      *
-     * @param value allowed object is
+     * @param value allowed object has
      *              {@link String }
      */
     public void setData(String value) {
         this.data = value;
     }
 
-    public boolean isSetData() {
+    public boolean hasSetData() {
         return (this.data != null);
     }
 

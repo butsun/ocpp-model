@@ -25,7 +25,7 @@ public class SetChargingProfileRequest
         this.connectorId = value;
     }
 
-    public boolean isSetConnectorId() {
+    public boolean hasSetConnectorId() {
         return true;
     }
 
@@ -33,7 +33,7 @@ public class SetChargingProfileRequest
      * Gets the value of the csChargingProfiles property.
      * 
      * @return
-     *     possible object is
+     *     possible object has
      *     {@link ChargingProfile }
      *     
      */
@@ -45,7 +45,7 @@ public class SetChargingProfileRequest
      * Sets the value of the csChargingProfiles property.
      * 
      * @param value
-     *     allowed object is
+     *     allowed object has
      *     {@link ChargingProfile }
      *     
      */
@@ -53,7 +53,7 @@ public class SetChargingProfileRequest
         this.csChargingProfiles = value;
     }
 
-    public boolean isSetCsChargingProfiles() {
+    public boolean hasSetCsChargingProfiles() {
         return (this.csChargingProfiles!= null);
     }
 

@@ -47,7 +47,7 @@ public class BootNotificationRequest implements RequestType {
         this.chargePointVendor = value;
     }
 
-    public boolean isSetChargePointVendor() {
+    public boolean hasSetChargePointVendor() {
         return (this.chargePointVendor!= null);
     }
 
@@ -75,7 +75,7 @@ public class BootNotificationRequest implements RequestType {
         this.chargePointModel = value;
     }
 
-    public boolean isSetChargePointModel() {
+    public boolean hasSetChargePointModel() {
         return (this.chargePointModel!= null);
     }
 
@@ -103,7 +103,7 @@ public class BootNotificationRequest implements RequestType {
         this.chargePointSerialNumber = value;
     }
 
-    public boolean isSetChargePointSerialNumber() {
+    public boolean hasSetChargePointSerialNumber() {
         return (this.chargePointSerialNumber!= null);
     }
 
@@ -131,7 +131,7 @@ public class BootNotificationRequest implements RequestType {
         this.chargeBoxSerialNumber = value;
     }
 
-    public boolean isSetChargeBoxSerialNumber() {
+    public boolean hasSetChargeBoxSerialNumber() {
         return (this.chargeBoxSerialNumber!= null);
     }
 
@@ -159,7 +159,7 @@ public class BootNotificationRequest implements RequestType {
         this.firmwareVersion = value;
     }
 
-    public boolean isSetFirmwareVersion() {
+    public boolean hasSetFirmwareVersion() {
         return (this.firmwareVersion!= null);
     }
 
@@ -187,7 +187,7 @@ public class BootNotificationRequest implements RequestType {
         this.iccid = value;
     }
 
-    public boolean isSetIccid() {
+    public boolean hasSetIccid() {
         return (this.iccid!= null);
     }
 
@@ -215,7 +215,7 @@ public class BootNotificationRequest implements RequestType {
         this.imsi = value;
     }
 
-    public boolean isSetImsi() {
+    public boolean hasSetImsi() {
         return (this.imsi!= null);
     }
 
@@ -243,7 +243,7 @@ public class BootNotificationRequest implements RequestType {
         this.meterType = value;
     }
 
-    public boolean isSetMeterType() {
+    public boolean hasSetMeterType() {
         return (this.meterType!= null);
     }
 
@@ -271,7 +271,7 @@ public class BootNotificationRequest implements RequestType {
         this.meterSerialNumber = value;
     }
 
-    public boolean isSetMeterSerialNumber() {
+    public boolean hasSetMeterSerialNumber() {
         return (this.meterSerialNumber!= null);
     }
 

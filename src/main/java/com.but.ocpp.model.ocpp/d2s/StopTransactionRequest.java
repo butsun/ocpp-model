@@ -34,7 +34,7 @@ public class StopTransactionRequest implements RequestType {
         this.transactionId = value;
     }
 
-    public boolean isSetTransactionId() {
+    public boolean hasSetTransactionId() {
         return true;
     }
 
@@ -48,7 +48,7 @@ public class StopTransactionRequest implements RequestType {
         this.idTag = value;
     }
 
-    public boolean isSetIdTag() {
+    public boolean hasSetIdTag() {
         return (this.idTag!= null);
     }
 
@@ -62,7 +62,7 @@ public class StopTransactionRequest implements RequestType {
         this.timestamp = value;
     }
 
-    public boolean isSetTimestamp() {
+    public boolean hasSetTimestamp() {
         return (this.timestamp!= null);
     }
 
@@ -76,7 +76,7 @@ public class StopTransactionRequest implements RequestType {
         this.meterStop = value;
     }
 
-    public boolean isSetMeterStop() {
+    public boolean hasSetMeterStop() {
         return true;
     }
 
@@ -90,7 +90,7 @@ public class StopTransactionRequest implements RequestType {
         this.reason = value;
     }
 
-    public boolean isSetReason() {
+    public boolean hasSetReason() {
         return (this.reason!= null);
     }
 
@@ -101,7 +101,7 @@ public class StopTransactionRequest implements RequestType {
         return this.transactionData;
     }
 
-    public boolean isSetTransactionData() {
+    public boolean hasSetTransactionData() {
         return ((this.transactionData!= null)&&(!this.transactionData.isEmpty()));
     }
 

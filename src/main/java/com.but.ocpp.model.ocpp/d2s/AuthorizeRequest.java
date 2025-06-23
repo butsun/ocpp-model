@@ -21,7 +21,7 @@ public class AuthorizeRequest implements RequestType {
         this.idTag = value;
     }
 
-    public boolean isSetIdTag() {
+    public boolean hasSetIdTag() {
         return (this.idTag!= null);
     }
 

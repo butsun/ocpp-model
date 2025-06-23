@@ -35,7 +35,7 @@ public class ChargingSchedule {
         this.duration = value;
     }
 
-    public boolean isSetDuration() {
+    public boolean hasSetDuration() {
         return (this.duration!= null);
     }
 
@@ -49,7 +49,7 @@ public class ChargingSchedule {
         this.startSchedule = value;
     }
 
-    public boolean isSetStartSchedule() {
+    public boolean hasSetStartSchedule() {
         return (this.startSchedule!= null);
     }
 
@@ -63,7 +63,7 @@ public class ChargingSchedule {
         this.chargingRateUnit = value;
     }
 
-    public boolean isSetChargingRateUnit() {
+    public boolean hasSetChargingRateUnit() {
         return (this.chargingRateUnit!= null);
     }
 
@@ -75,7 +75,7 @@ public class ChargingSchedule {
         return this.chargingSchedulePeriod;
     }
 
-    public boolean isSetChargingSchedulePeriod() {
+    public boolean hasSetChargingSchedulePeriod() {
         return ((this.chargingSchedulePeriod!= null)&&(!this.chargingSchedulePeriod.isEmpty()));
     }
 
@@ -93,7 +93,7 @@ public class ChargingSchedule {
         this.minChargingRate = value;
     }
 
-    public boolean isSetMinChargingRate() {
+    public boolean hasSetMinChargingRate() {
         return (this.minChargingRate!= null);
     }
 

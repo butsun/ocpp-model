@@ -23,7 +23,7 @@ public class AuthorizeResponse implements ResponseType {
         this.idTagInfo = value;
     }
 
-    public boolean isSetIdTagInfo() {
+    public boolean hasSetIdTagInfo() {
         return (this.idTagInfo!= null);
     }
 

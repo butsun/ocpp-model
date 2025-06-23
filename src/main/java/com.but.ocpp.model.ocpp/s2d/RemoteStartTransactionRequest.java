@@ -25,7 +25,7 @@ public class RemoteStartTransactionRequest implements RequestType {
         this.connectorId = value;
     }
 
-    public boolean isSetConnectorId() {
+    public boolean hasSetConnectorId() {
         return (this.connectorId!= null);
     }
 
@@ -39,7 +39,7 @@ public class RemoteStartTransactionRequest implements RequestType {
         this.idTag = value;
     }
 
-    public boolean isSetIdTag() {
+    public boolean hasSetIdTag() {
         return (this.idTag!= null);
     }
 
@@ -53,7 +53,7 @@ public class RemoteStartTransactionRequest implements RequestType {
         this.chargingProfile = value;
     }
 
-    public boolean isSetChargingProfile() {
+    public boolean hasSetChargingProfile() {
         return (this.chargingProfile!= null);
     }
 

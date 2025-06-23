@@ -29,7 +29,7 @@ public class StartTransactionRequest implements RequestType {
         this.connectorId = value;
     }
 
-    public boolean isSetConnectorId() {
+    public boolean hasSetConnectorId() {
         return true;
     }
 
@@ -43,7 +43,7 @@ public class StartTransactionRequest implements RequestType {
         this.idTag = value;
     }
 
-    public boolean isSetIdTag() {
+    public boolean hasSetIdTag() {
         return (this.idTag!= null);
     }
 
@@ -56,7 +56,7 @@ public class StartTransactionRequest implements RequestType {
         this.timestamp = value;
     }
 
-    public boolean isSetTimestamp() {
+    public boolean hasSetTimestamp() {
         return (this.timestamp!= null);
     }
 
@@ -70,7 +70,7 @@ public class StartTransactionRequest implements RequestType {
         this.meterStart = value;
     }
 
-    public boolean isSetMeterStart() {
+    public boolean hasSetMeterStart() {
         return true;
     }
 
@@ -84,7 +84,7 @@ public class StartTransactionRequest implements RequestType {
         this.reservationId = value;
     }
 
-    public boolean isSetReservationId() {
+    public boolean hasSetReservationId() {
         return (this.reservationId!= null);
     }
 

@@ -40,7 +40,7 @@ public class ChargingProfile {
         this.chargingProfileId = value;
     }
 
-    public boolean isSetChargingProfileId() {
+    public boolean hasSetChargingProfileId() {
         return true;
     }
 
@@ -68,7 +68,7 @@ public class ChargingProfile {
         this.transactionId = value;
     }
 
-    public boolean isSetTransactionId() {
+    public boolean hasSetTransactionId() {
         return (this.transactionId!= null);
     }
 
@@ -88,7 +88,7 @@ public class ChargingProfile {
         this.stackLevel = value;
     }
 
-    public boolean isSetStackLevel() {
+    public boolean hasSetStackLevel() {
         return true;
     }
 
@@ -116,7 +116,7 @@ public class ChargingProfile {
         this.chargingProfilePurpose = value;
     }
 
-    public boolean isSetChargingProfilePurpose() {
+    public boolean hasSetChargingProfilePurpose() {
         return (this.chargingProfilePurpose!= null);
     }
 
@@ -144,7 +144,7 @@ public class ChargingProfile {
         this.chargingProfileKind = value;
     }
 
-    public boolean isSetChargingProfileKind() {
+    public boolean hasSetChargingProfileKind() {
         return (this.chargingProfileKind!= null);
     }
 
@@ -172,7 +172,7 @@ public class ChargingProfile {
         this.recurrencyKind = value;
     }
 
-    public boolean isSetRecurrencyKind() {
+    public boolean hasSetRecurrencyKind() {
         return (this.recurrencyKind!= null);
     }
 
@@ -200,7 +200,7 @@ public class ChargingProfile {
         this.validFrom = value;
     }
 
-    public boolean isSetValidFrom() {
+    public boolean hasSetValidFrom() {
         return (this.validFrom!= null);
     }
 
@@ -228,7 +228,7 @@ public class ChargingProfile {
         this.validTo = value;
     }
 
-    public boolean isSetValidTo() {
+    public boolean hasSetValidTo() {
         return (this.validTo!= null);
     }
 
@@ -256,7 +256,7 @@ public class ChargingProfile {
         this.chargingSchedule = value;
     }
 
-    public boolean isSetChargingSchedule() {
+    public boolean hasSetChargingSchedule() {
         return (this.chargingSchedule!= null);
     }
 

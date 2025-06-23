@@ -21,7 +21,7 @@ public class RemoteStopTransactionResponse implements ResponseType {
         this.status = value;
     }
 
-    public boolean isSetStatus() {
+    public boolean hasSetStatus() {
         return (this.status!= null);
     }
 
